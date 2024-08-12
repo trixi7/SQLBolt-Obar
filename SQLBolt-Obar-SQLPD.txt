@@ -1,0 +1,11 @@
+1. SELECT * FROM subscribers;
+2. SELECT FullName, NumberOfPurchases, JoinedOn FROM members;
+3. SELECT Surname, EmailAddress, GivenName FROM users;
+4. SELECT DISTINCT Email FROM mailing_list;
+5. SELECT * FROM subscribers ORDER BY Username ASC
+6. SELECT * FROM users ORDER BY Posts DESC;
+7. SELECT DISTINCT FirstName, AccessTime, NumberOfPosts FROM users ORDER BY FirstName DESC;
+8. SELECT GivenName, Surname, JoinDate FROM mailing_list ORDER BY JoinDate, GivenName ASC;
+9. SELECT * FROM users ORDER BY LastAccess DESC ORDER BY Surname ASC LIMIT 20;
+10. SELECT * FROM users ORDER BY LastAccess DESC, Surname ASC LIMIT 20;
+11. SELECT DISTINCT Surname, PromotionsSent FROM mailing_list ORDER BY Surname DESC, PromotionsSent ASC LIMIT 10;
